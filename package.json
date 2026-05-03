@@ -1,0 +1,24 @@
+{
+  "name": "catalog.archives.gov-id-12044361",
+  "version": "1.0.0",
+  "description": "Records Relating to Membership in the Nationalsozialistische Deutsche Arbeiterpartei (NSDAP), 1945–1994",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crapptrapp/catalog.archives.gov-id-12044361.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/crapptrapp/catalog.archives.gov-id-12044361/issues"
+  },
+  "homepage": "https://github.com/crapptrapp/catalog.archives.gov-id-12044361#readme",
+  "devDependencies": {
+    "playwright": "^1.59.1"
+  }
+}
