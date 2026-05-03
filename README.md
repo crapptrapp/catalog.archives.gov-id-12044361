@@ -113,6 +113,14 @@ if __name__ == "__main__":
 
 ## Troubleshooting
 
+
+###  pagination looping 
+
+The proxy URL is catalog.archives.gov/proxy/ not /api/ — that's why the API filter matched nothing
+Children are listed via /proxy/records/parentNaId/12044361 with pagination using limit=10&sort=naId:asc — this is a proper API, no need to click Next buttons at all
+5443 child records — the Next button was clicking forever because the browser pagination is for browsing, but we should page the API directly
+The child records are file units (level fileUnit) — files will be on those children, not the parent
+
 ### `ModuleNotFoundError: No module named 'playwright'`
 
 This means Python is not using the environment where Playwright was installed. Reinstall with:
